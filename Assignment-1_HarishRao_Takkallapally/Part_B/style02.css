@@ -1,0 +1,20 @@
+body {
+    background-color: burlywood;
+    font-family: cursive;
+}
+
+header {
+    color: darkslategrey;
+    padding: 0px;
+}
+h3{
+    color:brown;
+    size: 100px;
+}
+
+footer {
+    background-color: #6495ed;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }

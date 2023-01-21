@@ -1,0 +1,37 @@
+body {
+    background-color:burlywood;
+    font-family:cursive;
+  }
+  body {
+    background-image: url(Images/background-image.jpg);
+  }
+  header {
+    color: darkslategrey;
+    padding: 0px;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  header nav ul li a {
+    color:antiquewhite;
+    text-decoration:dotted;
+  }
+  main {
+    padding: 20px;
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  h1 {
+    color:burlywood;
+  }
+  h4 {
+    color: antiquewhite;
+  }
+  footer {
+    background-color: #6495ed;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
