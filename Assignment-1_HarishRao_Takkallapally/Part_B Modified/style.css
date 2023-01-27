@@ -1,0 +1,157 @@
+/* Global styles */
+body {
+    align-content: center;
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    border: #333333;
+
+}
+
+header {
+    background-color: indianred;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+header nav ul li a:hover {
+    color: #0066cc;
+}
+
+h1 {
+    color: brown;
+    font-style: italic;
+}
+/* Hero banner styles */
+.hero-banner {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero-banner h1 {
+    font-size: 3rem;
+    margin-right: 20px;
+}
+
+.hero-banner img {
+    width: 400px;
+    height: auto;
+    align-items: center;
+}
+
+/* Services section styles */
+.services {
+    background-color: #e5e5e5;
+    padding: 20px;
+    margin: 20px;
+}
+
+.services h2 {
+    font-size: 2rem;
+}
+
+.services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.services ul li {
+    margin: 10px 0;
+
+}
+
+
+/* Contact Us section styles */
+.contact-us {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;  
+}
+
+.contact-us h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+form label {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    background-color: #0066cc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #003399;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    text-align:justify;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #cccccc;
+}
