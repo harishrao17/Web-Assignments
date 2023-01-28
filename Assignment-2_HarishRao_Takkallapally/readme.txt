@@ -1,0 +1,11 @@
+
+- Used external css file for each page (index.css, exp.css, cert.css)
+- Used float in index.css 
+- Used overflow in exp.css
+- Used column layout structure in exp.html and exp.css
+- Used absolute and relative positions in required places in index.css
+- Used tel and mailto tags in index.html
+- Used selectors in all the css file
+- Created a seperate page for certifications image gallery with hover effects and figure captions
+- Used many html and html5 tags throught.
+- Made exp.html and cert.html pages responsive
